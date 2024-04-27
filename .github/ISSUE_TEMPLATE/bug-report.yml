@@ -8,7 +8,7 @@ body:
     label: "检查项"
     description: "请逐个检查下列项目，并勾选确认。"
     options:
-    - label: "我已认真阅读《ACLissue库提交新标签规范》，并愿意遵守其中的规则"
+    - label: "我已认真阅读《DoFissue库提交新标签规范》，并愿意遵守其中的规则"
     - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
       required: true
 - type: textarea
@@ -40,20 +40,13 @@ body:
 - type: textarea
   id: "yml-6"
   attributes:
-    label: 系统环境 
-    placeholder: "例：Windows 7、Windows 11等"
-  validations:
-    required: true
-- type: textarea
-  id: "yml-7"
-  attributes:
-    label: 遇到BUG的启动器版本
-    placeholder: "例：Alpha 0.0.1
+    label: 遇到BUG的整合包版本
+    placeholder: "例：ALL-2.3.3，v2.3.3（modrinth），v2.3.3（OneDrive）
     "
   validations:
     required: true
 - type: textarea
-  id: "yml-8"
+  id: "yml-7"
   attributes:
     label: 备注
     placeholder: "-（请在这里回答）-"

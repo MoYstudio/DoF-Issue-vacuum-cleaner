@@ -1,5 +1,5 @@
 name: 新功能提案
-description: 为启动器提供一些新点子
+description: 为整合包提供一些新点子
 labels: ["新功能提案"]
 body:
 - type: checkboxes
@@ -9,19 +9,19 @@ body:
     description: "请逐个检查下列项目，并勾选确认。"
     options:
     - label: "我确认在Issues列表中并无其他人已经建议过相似的功能"
-    - label: "我已认真阅读《ACLissue库提交新标签规范》，并愿意遵守其中的规则"
+    - label: "我已认真阅读《DoFissue库提交新标签规范》，并愿意遵守其中的规则"
       required: true
 - type: textarea
   id: "yml-2"
   attributes:
-    label: 这个新功能是可以解决目前存在的某个问题或BUG吗？
+    label: 这个新内容是可以解决目前存在的某个问题或BUG吗？
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-3"
   attributes:
-    label: 期望的功能描述
+    label: 期望的内容描述或者期望添加的模组名称
     placeholder: "-（请在这里回答）-"
   validations:
     required: true

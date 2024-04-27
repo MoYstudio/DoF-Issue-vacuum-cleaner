@@ -1,0 +1,59 @@
+name: BUG提交
+description: 看起来，你遇到了什么BUG，我们非常抱歉
+labels: ["BUG"  ]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请逐个检查下列项目，并勾选确认。"
+    options:
+    - label: "我已认真阅读《ACLissue库提交新标签规范》，并愿意遵守其中的规则"
+    - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: 你遇到的问题
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: 你期望你那么操作会发生什么？
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: 如何重现此BUG？
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: 可能造成问题的原因
+    placeholder: "-（若不知道，请填写“？”）-"
+- type: textarea
+  id: "yml-6"
+  attributes:
+    label: 系统环境 
+    placeholder: "例：Windows 7、Windows 11等"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes:
+    label: 遇到BUG的启动器版本
+    placeholder: "例：Alpha 0.0.1
+    "
+  validations:
+    required: true
+- type: textarea
+  id: "yml-8"
+  attributes:
+    label: 备注
+    placeholder: "-（请在这里回答）-"

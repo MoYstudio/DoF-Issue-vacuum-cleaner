@@ -13,3 +13,4 @@ DoF整合包问题提交库
 
 - 其他链接
 <br>[DoF整合包全汉化计划](https://github.com/MoYstudio/DoF-Chinese_resourcepacks)
+<br>[MoY工作室issue库提交规范条例(2024)](https://moystudio.github.io/issue_library_specification.io/)

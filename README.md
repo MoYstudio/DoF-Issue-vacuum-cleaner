@@ -27,7 +27,7 @@ DoF Bundle issue submission library
 
 - Related Links
 <br>[DoF Integration Package Full Sinicization Plan](https://github.com/MoYstudio/DoF-Chinese_resourcepacks)
-<br>[MoY Studio Issue Repository Submission Specification (2024)] (https://moystudio.github.io/issue_library_specification.io/)
+<br>[MoY Studio Issue Repository Submission Specification (2024)](https://moystudio.github.io/issue_library_specification.io/)
 
 - Join us/business partners
 <br>Send an email to: ZirranYa@outlook.com

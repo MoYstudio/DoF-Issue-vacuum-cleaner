@@ -30,4 +30,4 @@ body:
   id: "yml-4"
   attributes:
     label: 备注
-    placeholder: "-（请在这里回答）-"
+    placeholder: "-（请在这里回答，如果没有请填写“无”）-"

@@ -1,1 +1,53 @@
-
+name: BUG REPORT
+description: Looks like you've encountered some bugs, and we're very sorry
+labels: ["BUG"  ]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "Check the item"
+    description: "Please check each of the following items and check the box to confirm."
+    options:
+    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](https://moystudio.github.io/issue_library_specification.io/)and are willing to abide by the rules therein"
+      required: true
+    - label: "I confirm that no one else in the Issues list has raised the same or similar issue as this one"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: The problem you're experiencing
+    placeholder: "-(Please answer here)-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: What do you expect to happen if you do that?
+    placeholder: "-(Please answer here)-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: HOW DO I REPRODUCE THIS BUG?
+    placeholder: "-(Please answer here)-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: What could be causing the problem
+    placeholder: "- (If you don't know, please fill in "? ”）-"
+- type: textarea
+  id: "yml-6"
+  attributes:
+    label: The modpack version that encountered the bug
+    placeholder: "EG：ALL-2.3.3，v2.3.3（modrinth），v2.3.3（OneDrive）
+    "
+  validations:
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes:
+    label: remark
+    placeholder: "-(Please answer here, if not, please fill in "none")-"

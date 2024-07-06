@@ -36,14 +36,13 @@ body:
 - type: textarea
   id: "yml-5"
   attributes:
-    label: What could be causing the problem
+    label: What could be causing the problem?
     placeholder: "- (If you don't know, please fill in "? ”）-"
 - type: textarea
   id: "yml-6"
   attributes:
     label: The modpack version that encountered the bug
-    placeholder: "EG：ALL-2.3.3，v2.3.3（modrinth），v2.3.3（OneDrive）
-    "
+    placeholder: "EG：ALL-2.3.3，v2.3.3（modrinth），v2.3.3（OneDrive）"
   validations:
     required: true
 - type: textarea

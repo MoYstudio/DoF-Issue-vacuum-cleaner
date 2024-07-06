@@ -37,7 +37,7 @@ body:
   id: "yml-5"
   attributes:
     label: What could be causing the problem?
-    placeholder: "-（If you don't know, please fill in "? ”）-"
+    placeholder: "-（If you don't know, please fill in “?” ）-"
 - type: textarea
   id: "yml-6"
   attributes:

@@ -5,7 +5,7 @@ DoF整合包问题提交库
 <br>用于接收各种奇怪的问题/看法/想法
 
 - 负责人：
-<br>zirran & CHOCOLATE
+<br>zirran & CHOCOLATE & Terry
 
 - 相关链接
 <br>[DoF整合包全汉化计划](https://github.com/MoYstudio/DoF-Chinese_resourcepacks)
@@ -23,7 +23,7 @@ DoF Bundle issue submission library
 <br>Used to receive all sorts of strange questions/opinions/ideas
 
 - Head:
-<br>zirran & CHOCOLATE
+<br>zirran & CHOCOLATE & Terry
 
 - Related Links
 <br>[DoF Integration Package Full Sinicization Plan](https://github.com/MoYstudio/DoF-Chinese_resourcepacks)
